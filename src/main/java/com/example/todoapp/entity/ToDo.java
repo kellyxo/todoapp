@@ -15,7 +15,16 @@ public class ToDo {
     private String description;
     private boolean completed;
 
+    // constructors
+    public ToDo(){}
 
+    public ToDo(String title, String description, boolean completed) {
+        this.title = title;
+        this.description = description;
+        this.completed = completed;
+    }
+
+    // methods
     public Long getId() {
         return id;
     }
